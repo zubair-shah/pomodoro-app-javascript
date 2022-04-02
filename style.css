@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.section1{
+        /* background-image: url(https://www.academic-consulting.co.nz/img/blog/tomato.jpg); */
+        width: 400px;
+        margin: 50px auto;
+        padding: 25px;
+        height: 200px;
+        background-color: rgb(255,55,55);
+        /* padding: 72px; */
+        /* background-position: center; */
+        border: 1px solid grey;
+}
+.block{
+  text-align: center;
+  
+}
+
+.block #min, .block #sec , #colon{
+    display: inline-block;
+}
+.row{
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
