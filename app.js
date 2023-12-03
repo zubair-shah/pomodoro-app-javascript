@@ -1,7 +1,7 @@
 // ================set-time-=====================
 
-let min = 00;
-let sec =00;
+let min = "00";
+let sec = "00";
 var minDisplay = document.getElementById('min')
 var secDisplay = document.getElementById('sec')
 let workMinutes = document.getElementById('work-input')
@@ -28,7 +28,7 @@ function workTimer() {
     sec++;
     secDisplay.innerHTML = sec
   
-    if(sec === 60){
+    if(sec === 59){
     
          min++
          minDisplay.innerHTML = min
@@ -59,7 +59,7 @@ function workTimer() {
       sec++;
       secDisplay.innerHTML = sec
     
-      if(sec === 60){
+      if(sec === 59){
       
            min++
            minDisplay.innerHTML = min
